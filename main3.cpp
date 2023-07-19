@@ -21,6 +21,11 @@ int main(){
     for (int i = 0; i < n; ++i) {
         cin  >> array[i];
     }
+    /*
+     * sort(first, last, cmp)  默认为从小到大
+     * 从大到小：cmp 替换为 greater<int>()
+     * cmp也可以是自定义bool类型函数
+     */
     sort(array, array + n);
     for (int i = 0; i < n; ++i) {
         cout << array[i] << ' ';
