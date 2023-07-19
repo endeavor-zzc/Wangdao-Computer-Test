@@ -7,7 +7,6 @@
  * 每个输出占一行。
  */
 #include <iostream>
-#include <cstdio>
 using namespace std;
 int main(){
     for (int a = 0; a < 10; ++a) {
