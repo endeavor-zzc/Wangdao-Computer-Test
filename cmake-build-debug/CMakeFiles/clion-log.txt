@@ -2,6 +2,7 @@
     -- src/main.cpp will be compiled to bin/main
     -- src/main2.cpp will be compiled to bin/main2
     -- src/main3.cpp will be compiled to bin/main3
+    -- src/main4.cpp will be compiled to bin/main4
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/Desktop/Computer Test/cmake-build-debug
