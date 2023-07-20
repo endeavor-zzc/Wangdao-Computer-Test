@@ -5,6 +5,7 @@
     -- src/main4.cpp will be compiled to bin/main4
     -- src/main5.cpp will be compiled to bin/main5
     -- src/main6.cpp will be compiled to bin/main6
+    -- src/main7.cpp will be compiled to bin/main7
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/Desktop/Computer Test/cmake-build-debug
