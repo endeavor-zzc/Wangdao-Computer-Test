@@ -172,6 +172,39 @@ build main4.exe: CXX_EXECUTABLE_LINKER__main4_Debug CMakeFiles/main4.dir/main4.c
   TARGET_IMPLIB = libmain4.dll.a
   TARGET_PDB = main4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target main5
+
+
+#############################################
+# Order-only phony target for main5
+
+build cmake_object_order_depends_target_main5: phony || CMakeFiles/main5.dir
+
+build CMakeFiles/main5.dir/main5.cpp.obj: CXX_COMPILER__main5_Debug D$:/Desktop/Computer$ Test/main5.cpp || cmake_object_order_depends_target_main5
+  DEP_FILE = CMakeFiles\main5.dir\main5.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\main5.dir
+  OBJECT_FILE_DIR = CMakeFiles\main5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main5
+
+
+#############################################
+# Link the executable main5.exe
+
+build main5.exe: CXX_EXECUTABLE_LINKER__main5_Debug CMakeFiles/main5.dir/main5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = main5.exe
+  TARGET_IMPLIB = libmain5.dll.a
+  TARGET_PDB = main5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +239,8 @@ build main3: phony main3.exe
 
 build main4: phony main4.exe
 
+build main5: phony main5.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build main4: phony main4.exe
 #############################################
 # Folder: D:/Desktop/Computer Test/cmake-build-debug
 
-build all: phony main.exe main2.exe main3.exe main4.exe
+build all: phony main.exe main2.exe main3.exe main4.exe main5.exe
 
 # =============================================================================
 # Built-in targets
