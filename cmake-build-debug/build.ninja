@@ -239,6 +239,39 @@ build main14.exe: CXX_EXECUTABLE_LINKER__main14_Debug CMakeFiles/main14.dir/main
   TARGET_PDB = main14.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target main15
+
+
+#############################################
+# Order-only phony target for main15
+
+build cmake_object_order_depends_target_main15: phony || CMakeFiles/main15.dir
+
+build CMakeFiles/main15.dir/main15.cpp.obj: CXX_COMPILER__main15_Debug D$:/Desktop/Computer$ Test/main15.cpp || cmake_object_order_depends_target_main15
+  DEP_FILE = CMakeFiles\main15.dir\main15.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\main15.dir
+  OBJECT_FILE_DIR = CMakeFiles\main15.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main15
+
+
+#############################################
+# Link the executable main15.exe
+
+build main15.exe: CXX_EXECUTABLE_LINKER__main15_Debug CMakeFiles/main15.dir/main15.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main15.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = main15.exe
+  TARGET_IMPLIB = libmain15.dll.a
+  TARGET_PDB = main15.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target main2
 
 
@@ -540,6 +573,8 @@ build main13: phony main13.exe
 
 build main14: phony main14.exe
 
+build main15: phony main15.exe
+
 build main2: phony main2.exe
 
 build main3: phony main3.exe
@@ -564,7 +599,7 @@ build main9: phony main9.exe
 #############################################
 # Folder: D:/Desktop/Computer Test/cmake-build-debug
 
-build all: phony main.exe main10.exe main11.exe main12.exe main13.exe main14.exe main2.exe main3.exe main4.exe main5.exe main6.exe main7.exe main8.exe main9.exe
+build all: phony main.exe main10.exe main11.exe main12.exe main13.exe main14.exe main15.exe main2.exe main3.exe main4.exe main5.exe main6.exe main7.exe main8.exe main9.exe
 
 # =============================================================================
 # Built-in targets
