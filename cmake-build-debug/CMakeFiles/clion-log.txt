@@ -2,6 +2,7 @@
     -- src/main.cpp will be compiled to bin/main
     -- src/main10.cpp will be compiled to bin/main10
     -- src/main11.cpp will be compiled to bin/main11
+    -- src/main12.cpp will be compiled to bin/main12
     -- src/main2.cpp will be compiled to bin/main2
     -- src/main3.cpp will be compiled to bin/main3
     -- src/main4.cpp will be compiled to bin/main4
