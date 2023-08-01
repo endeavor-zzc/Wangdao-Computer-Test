@@ -1,4 +1,5 @@
 D:/Desktop/Computer Test/cmake-build-debug/CMakeFiles/leetcode1.dir
+D:/Desktop/Computer Test/cmake-build-debug/CMakeFiles/leetcode2.dir
 D:/Desktop/Computer Test/cmake-build-debug/CMakeFiles/main.dir
 D:/Desktop/Computer Test/cmake-build-debug/CMakeFiles/main10.dir
 D:/Desktop/Computer Test/cmake-build-debug/CMakeFiles/main11.dir
