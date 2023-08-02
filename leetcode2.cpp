@@ -75,9 +75,11 @@ ListNode* CreateList(const int arr[], int n){
     for (int i = 0; i < n; ++i) {
         auto *newNode = new ListNode(arr[i]);
         if (!head){
+            //为空，将head，tail都指向newNode
             head = newNode;
             tail = newNode;
         } else{
+            //不为空，将newNode加入到链表末尾，tail始终指向链表的最后一个节点。
             tail->next = newNode;
             tail = newNode;
         }

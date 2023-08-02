@@ -2,6 +2,7 @@
     -- src/leetcode1.cpp will be compiled to bin/leetcode1
     -- src/leetcode2.cpp will be compiled to bin/leetcode2
     -- src/leetcode20.cpp will be compiled to bin/leetcode20
+    -- src/leetcode21.cpp will be compiled to bin/leetcode21
     -- src/leetcode3.cpp will be compiled to bin/leetcode3
     -- src/main.cpp will be compiled to bin/main
     -- src/main10.cpp will be compiled to bin/main10
