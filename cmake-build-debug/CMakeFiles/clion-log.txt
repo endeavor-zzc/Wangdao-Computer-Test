@@ -1,6 +1,7 @@
 "E:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2021.3.4/bin/ninja/win/ninja.exe" -G Ninja -S "D:\Desktop\Computer Test" -B "D:\Desktop\Computer Test\cmake-build-debug"
     -- src/leetcode1.cpp will be compiled to bin/leetcode1
     -- src/leetcode2.cpp will be compiled to bin/leetcode2
+    -- src/leetcode3.cpp will be compiled to bin/leetcode3
     -- src/main.cpp will be compiled to bin/main
     -- src/main10.cpp will be compiled to bin/main10
     -- src/main11.cpp will be compiled to bin/main11
