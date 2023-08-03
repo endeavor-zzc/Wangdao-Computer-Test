@@ -22,7 +22,7 @@ public:
         int result = 0;
         for (int i = 0; i < s.size(); ++i) {
             p = max(p, m[s[i]]);
-            m[s[i]] = i + 1;
+            m[s[i]] = i + 1; //每次m[s[i]]存储的都是下一个字符的位置，这样遇到相同字符时左指针直接移到相同字符的下一个位置。
             result = max(result, i - p + 1);
         }
         return result;
