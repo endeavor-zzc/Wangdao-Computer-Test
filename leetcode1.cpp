@@ -22,10 +22,10 @@ public:
         unordered_map<int, int>has;
         int n = nums.size();
         for (int i = 0; i < n; ++i) {
-            if (has.find(target - nums[i]) != has.end()){
-                return {has[target - nums[i]], i};
+            if (has.find(target - nums[i]) != has.end()){ //如果target - nums[i]在哈希表里
+                return {has[target - nums[i]], i}; //找到符合的
             } else{
-                has[nums[i]] = i;
+                has[nums[i]] = i; //没有找到则加入哈希表中
             }
         }
         return {};
