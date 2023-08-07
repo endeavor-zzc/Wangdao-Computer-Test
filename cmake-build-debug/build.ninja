@@ -107,6 +107,39 @@ build leetcode101.exe: CXX_EXECUTABLE_LINKER__leetcode101_Debug CMakeFiles/leetc
   TARGET_PDB = leetcode101.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target leetcode104
+
+
+#############################################
+# Order-only phony target for leetcode104
+
+build cmake_object_order_depends_target_leetcode104: phony || CMakeFiles/leetcode104.dir
+
+build CMakeFiles/leetcode104.dir/leetcode104.cpp.obj: CXX_COMPILER__leetcode104_Debug D$:/Desktop/Computer$ Test/leetcode104.cpp || cmake_object_order_depends_target_leetcode104
+  DEP_FILE = CMakeFiles\leetcode104.dir\leetcode104.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\leetcode104.dir
+  OBJECT_FILE_DIR = CMakeFiles\leetcode104.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode104
+
+
+#############################################
+# Link the executable leetcode104.exe
+
+build leetcode104.exe: CXX_EXECUTABLE_LINKER__leetcode104_Debug CMakeFiles/leetcode104.dir/leetcode104.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\leetcode104.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = leetcode104.exe
+  TARGET_IMPLIB = libleetcode104.dll.a
+  TARGET_PDB = leetcode104.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target leetcode2
 
 
@@ -895,6 +928,8 @@ build leetcode1: phony leetcode1.exe
 
 build leetcode101: phony leetcode101.exe
 
+build leetcode104: phony leetcode104.exe
+
 build leetcode2: phony leetcode2.exe
 
 build leetcode20: phony leetcode20.exe
@@ -949,7 +984,7 @@ build main9: phony main9.exe
 #############################################
 # Folder: D:/Desktop/Computer Test/cmake-build-debug
 
-build all: phony leetcode1.exe leetcode101.exe leetcode2.exe leetcode20.exe leetcode21.exe leetcode3.exe leetcode70.exe leetcode94.exe main.exe main10.exe main11.exe main12.exe main13.exe main14.exe main15.exe main16.exe main17.exe main2.exe main3.exe main4.exe main5.exe main6.exe main7.exe main8.exe main9.exe
+build all: phony leetcode1.exe leetcode101.exe leetcode104.exe leetcode2.exe leetcode20.exe leetcode21.exe leetcode3.exe leetcode70.exe leetcode94.exe main.exe main10.exe main11.exe main12.exe main13.exe main14.exe main15.exe main16.exe main17.exe main2.exe main3.exe main4.exe main5.exe main6.exe main7.exe main8.exe main9.exe
 
 # =============================================================================
 # Built-in targets
